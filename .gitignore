@@ -6,3 +6,8 @@
 /.lein-failures
 /checkouts
 /.lein-deps-sum
+**\bin
+**\obj
+**\bld
+*.suo
+*.jsproj.user

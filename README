@@ -1,13 +1,15 @@
 # metrocljs
 
-FIXME: write description
+Build a Windows 8 Metro app using Clojurescript
 
 ## Usage
 
-FIXME: write
+To generate the javascript for the application, you need to invoke the clojurescript compiler:
+
+lein cljsbuild once
+
+This will output the javascript to the /js directory in the Metro Windows 8 app
 
 ## License
-
-Copyright (C) 2012 FIXME
 
 Distributed under the Eclipse Public License, the same as Clojure.
